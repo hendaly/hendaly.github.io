@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the  Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+<head>
+  <title>Hend Aly's Homepage</title>
+  <meta charset="utf-8">
+  <link rel="icon" href="files/Hend_Photo.jpg" type="image/icon type">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="files/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="files/font.css" rel='stylesheet' type='text/css'>
+</head>
+
+<style>
+
+:root {
+    --primary-color: #1B6FC2;
+    --secondary-color: #536390;
+    --font-color: #23476A;
+    --bg-color: #FFFFFF;
+    --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+    --primary-color: #7ED4E5;
+    --secondary-color: #7ED4E5;
+    --font-color: #DADADA;
+    --bg-color: #181818;
+    --heading-color: #818cab;
+}
+
+hr {
+  display: block;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: .5px;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+a:hover {
+    color: var(--primary-color);
+}
+
+/*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+
+  em {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+
+
+.theme-switch {
+  display: inline-block;
+  top: 7px;
+  height: 27px;
+  right: 70px;
+  position: absolute;
+  width: 32px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #b3b3b3;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #FFFFFF;
+  top: 0;
+  content: "";
+  height: 15px;
+  left: 0px;
+  position: absolute;
+  transition: .4s;
+  width: 15px;
+}
+
+input:checked + .slider {
+  background-color: #7ED4E5;
+}
+
+input:checked + .slider:before {
+  transform: translateX(17px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+</style>
+
+<body>
+
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+    <ul class="nav navbar-nav">
+              <li><a href="https://alisiahkoohi.github.io/">Hend Aly's Homepage</a></li>
+    </ul>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+      </label>
+    </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Entries Column -->
+            <div class="col-md-3" >
+                <!-- Contact Info on the Sidebar and image -->
+                <div style="font-family: Arial, Helvetica, sans-serif; font-size: 32px;"><b>Hend Aly</b></div><br>
+                <img class="img-responsive" src="files/Hend_Photo.jpg" height="400" width="400" alt=""><br>
+                <p>PhD student<br>
+                Medical Research Institute<br>
+                Alexandria University, Egypt<br></p>
+                <p><b>Email:</b> hend [dot] aly [at] alexu [dot] edu [dot] eg<br>
+                <b>Office:</b> Radiobiology Dept. @ Medical Research Institute Building<br></p>
+                <dd><a href="files/Hend_Aly_CV.pdf" target="_blank">CV</a></dd>
+                <dd><a href="">LinkedIn</a></dd>
+                <dd><a href="">Google Scholar</a></dd>
+                </p>
+
+            </div>
+
+            <!-- main info -->
+            <div class="col-md-8" >
+                <div style="margin-top:5vh; text-align:justify;">
+                  <br />
+                  <br />
+                  Hello there :)
+                  <br />
+                  <br />
+                  Hend Aly is a Assistant Lecturer at the Radiobiology department in the Medical Research Institute at Alexandria University. Hend's research interests include breast cancer as a health disparity,  breast cancer treatment and biological markers.
+      <hr>
+
+      <div  style="text-align:left;">
+      <div style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;"><b>Education</b></div><br>
+
+        PhD Radiobiology, <b>Medical Research Institute, Alexandria University</b> <i>(In progress - Expected: 2022)</i> <br>
+        MSc Radiobiology, <b>Medical Research Institute, Alexandria University</b> <br>
+        BSc Biochemistry, <b>Faculty of Science, Alexandria University</b> <br>
+
+      </div>
+
+      <hr>
+
+      <div  style="margin-top:2vh; text-align:left;">
+      <div style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;"><b>Teaching</b></div><br>
+        <p> <b>Teaching Assistant (Fall 2014 - present): </b><br>
+          <div> - Radiobiology Department @ Medical Research Institute</div>
+          <div> - Responsibilities include preparing and giving sections and lab sessions for graduate level classes.</div>
+          <div> - Classes:</div>
+            <ul>
+              <li>Radiobiology,</li>
+              <li>Experimental Radiobiology,</li>
+              <li>Radiation Protection,</li>
+              <li>Radiation Physics,</li>
+              <li>Mathematics of Radioactivity,</li>
+              <li>Basics of Radiation Chemistry and Dose Measurements.</li>
+            </ul>
+      </div>
+
+      <hr>
+
+ <!-- Other people may like it too! -->
+     <div>
+    <p style="font-size:0.9em; float:right; color:#787878;"> Thanks to <u> <a style="color:#787878" target="_blank" href="https://alisiahkoohi.github.io/">Ali Siahkoohi</a></u> for the <u><a style="color:#787878" target="_blank" href="https://github.com/alisiahkoohi/alisiahkoohi.github.io">template</a>.</p>
+    </div>
+    <!-- /.container -->
+
+
+<script>
+
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark'); //add this
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light'); //add this
+    }
+}
+
+
+const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+}
+
+</script>
+
+
+</body>
+
+</html>
